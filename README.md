@@ -36,9 +36,7 @@ git demo repository
 
 - git clone <repository URL>  clone a remote repository to local disk
 - git push origin <branch_name> push local branch <branch_name> to remote branch dev, if dev branch does not exist remotely, it would be created.  (--delete to delete a remote branch)
-- git remote get remote name
- * -v
- * show origin
+- git remote
 - git branch -a  list all branches both local and remote
 - git branch -r list all remote branches
 - git fetch download objects and refs from remote repository
